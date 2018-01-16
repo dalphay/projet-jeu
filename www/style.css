@@ -1,0 +1,92 @@
+body {
+    background-image: url("img/4e682f4c1cf9bc0726b103e8f87fa6ee.gif");
+    background-size: 1880px;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+#mur {
+    margin-bottom: 23%;
+}
+
+input[type=text] {
+    border-radius: 8px;
+    border-color: red;
+    width: 229px;
+    height: 36px;
+    text-align: center;
+}
+
+
+  #joueur1 {
+    position: absolute;
+    bottom: 50;
+    
+}
+
+  #joueur2 {
+    position: absolute;
+    bottom: 30;
+
+}
+
+.table-inverse {
+    color: #fff;
+    background-color: #292b2c;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+#img {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+
+    
+    
+}
+#bouton {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#btn1 {
+    background-color: red;
+    color: white;
+    border-radius: 45%;   
+}
+
+#btn2 {
+    background-color: rgba(12, 233, 30, 0.76);
+    color: white;
+    border-radius: 45%;
+}
+
+#btn3 {
+    background-color: rgba(11, 69, 80, 0.952);
+    color: white;
+    border-radius: 45%;   
+}
+
+#btn4 {
+    background-color: red;
+    color: white;
+    border-radius: 45%;
+}
+
+#btn5 {
+    background-color: rgba(12, 233, 30, 0.76);
+    color: white;
+    border-radius: 45%;
+}
+#btn6 {
+    background-color: rgba(11, 69, 80, 0.952);
+    color: white;
+    border-radius: 45%;
+}
