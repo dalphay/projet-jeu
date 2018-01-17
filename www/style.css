@@ -8,7 +8,13 @@ body {
 }
 
 #mur {
-    margin-bottom: 23%;
+    background-image: url("img/Abandoned_Mine_Wall_sprite_002.png");
+    background-size: 200px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    z-index: 50;
+    height: 267px;
+    width: 200px;
 }
 
 input[type=text] {
@@ -21,13 +27,11 @@ input[type=text] {
 
 
   #joueur1 {
-    position: absolute;
     bottom: 50;
     
 }
 
   #joueur2 {
-    position: absolute;
     bottom: 30;
 
 }
@@ -40,20 +44,34 @@ input[type=text] {
     margin-bottom: 1rem;
 }
 
+#block {
+    display: flex;
+    width: 1014px;
+    height: 724px;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
 #img {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    
-
-    
-    
+    width: 1014px;
+    align-items: flex-end;
+    height: 593px;
+        
 }
 #bouton {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+}
+
+.btn-groupg {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 151px;
 }
 
 #btn1 {
