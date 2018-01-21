@@ -27,13 +27,39 @@ input[type=text] {
 
 
   #joueur1 {
-    bottom: 50;
-    
+    background-image: url("img/playerleft.png");
+    position: relative;    
+    top: 143px;
+    left: 0px;
+    height: 100px;
+    width: 68px;
+    animation: frapper1 2s infinite steps(7);
+}
+@keyframes frapper1 {
+    from {
+        background-position-x: 0;
+    } 
+    to {
+        background-position-x: -479px;
+    }
 }
 
   #joueur2 {
-    bottom: 30;
-
+    background-image: url("img/playerRight.png");
+    position: relative;
+    top: 50px;
+    right: 100px;
+    height: 100px;
+    width: 111px;
+    animation: frapper2 2s infinite steps(4);
+}
+@keyframes frapper2 {
+    from {
+        background-position-x: 0;
+    } 
+    to {
+        background-position-x: -446px;
+    }
 }
 
 .table-inverse {
@@ -45,26 +71,23 @@ input[type=text] {
 }
 
 #block {
-    display: flex;
     width: 1014px;
     height: 724px;
-    justify-content: space-around;
-    flex-direction: column;
 }
 
 #img {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    position: relative;
     width: 1014px;
-    align-items: flex-end;
     height: 593px;
-        
+    top: 220px;
+    left: 702px;
 }
+
 #bouton {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    width: 1500px;
 }
 
 .btn-groupg {
