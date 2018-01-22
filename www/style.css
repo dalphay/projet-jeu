@@ -1,10 +1,10 @@
 body {
     background-image: url("img/4e682f4c1cf9bc0726b103e8f87fa6ee.gif");
-    background-size: 1880px;
-    background-attachment: fixed; 
+    background-size: 1290px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
-
+    overflow-y: hidden;
 }
 
 #mur {
@@ -15,6 +15,9 @@ body {
     z-index: 50;
     height: 267px;
     width: 200px;
+    position: absolute;
+    top: 130px;
+    left: 530px;
 }
 
 input[type=text] {
@@ -27,12 +30,13 @@ input[type=text] {
 
 
   #joueur1 {
-    background-image: url("img/playerleft.png");
-    position: relative;    
-    top: 143px;
-    left: 0px;
-    height: 100px;
-    width: 68px;
+    background-image: url("img/playerleftlarge.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 92px;
+    left: 280px;
+    height: 300px;
+    width: 167px;
     animation: frapper1 2s infinite steps(7);
 }
 @keyframes frapper1 {
@@ -40,25 +44,26 @@ input[type=text] {
         background-position-x: 0;
     } 
     to {
-        background-position-x: -479px;
+        background-position-x: -1437px;
     }
 }
 
   #joueur2 {
     background-image: url("img/playerRight.png");
-    position: relative;
-    top: 50px;
-    right: 100px;
-    height: 100px;
-    width: 111px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 57px;
+    right: 54px;
+    height: 300px;
+    width: 229px;
     animation: frapper2 2s infinite steps(4);
 }
 @keyframes frapper2 {
     from {
-        background-position-x: 0;
+        background-position-x: 2061px;
     } 
     to {
-        background-position-x: -446px;
+        background-position-x: 0 px;
     }
 }
 
@@ -71,23 +76,23 @@ input[type=text] {
 }
 
 #block {
-    width: 1014px;
+    width: 1280px;
     height: 724px;
 }
 
 #img {
     position: relative;
-    width: 1014px;
-    height: 593px;
-    top: 220px;
-    left: 702px;
+    width: 1280px;
+    height: 389px;
+    left: 0;
+    top: 0;
 }
 
 #bouton {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    width: 1500px;
+    width: 1280px;
 }
 
 .btn-groupg {
