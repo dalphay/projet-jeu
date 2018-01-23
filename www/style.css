@@ -7,6 +7,7 @@ body {
     overflow-y: hidden;
 }
 
+
 #mur {
     background-image: url("img/Abandoned_Mine_Wall_sprite_002.png");
     background-size: 200px;
@@ -29,7 +30,7 @@ input[type=text] {
 }
 
 
-  #joueur1 {
+  #joueur01 {
     background-image: url("img/playerleftlarge.png");
     background-repeat: no-repeat;
     position: absolute;
@@ -37,7 +38,7 @@ input[type=text] {
     left: 280px;
     height: 300px;
     width: 167px;
-    animation: frapper1 2s infinite steps(7);
+    animation: frapper1 2s 1 steps(7);
 }
 @keyframes frapper1 {
     from {
@@ -48,25 +49,44 @@ input[type=text] {
     }
 }
 
-  #joueur2 {
-    background-image: url("img/playerRight.png");
+#joueur1 {
+    background-image: url("img/PlayerLeftstatique.png");
     background-repeat: no-repeat;
     position: absolute;
-    top: 57px;
-    right: 54px;
+    top: 92px;
+    left: 280px;
     height: 300px;
-    width: 229px;
-    animation: frapper2 2s infinite steps(4);
+    width: 167px;
+}
+
+  #joueur02 {
+    background-image: url("img/playerRightlarge.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 97px;
+    right: 213px;
+    height: 260px;
+    width: 228px;
+    animation: frapper2 2s 1 steps(7);
 }
 @keyframes frapper2 {
     from {
-        background-position-x: 2061px;
+        background-position-x: 0px;
     } 
     to {
-        background-position-x: 0 px;
+         background-position-x: -1733px;
     }
 }
 
+#joueur2 {
+    background-image: url("img/playerRightlarge statique.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 97px;
+    right: 213px;
+    height: 260px;
+    width: 228px;
+}
 .table-inverse {
     color: #fff;
     background-color: #292b2c;
@@ -92,7 +112,7 @@ input[type=text] {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    width: 1280px;
+    width: 1038px;
 }
 
 .btn-groupg {
@@ -103,36 +123,36 @@ input[type=text] {
 }
 
 #btn1 {
-    background-color: red;
+    background-color: rgba(204, 191, 13, 0.76);
     color: white;
-    border-radius: 45%;   
+    border-radius: 7px;   
 }
 
 #btn2 {
-    background-color: rgba(12, 233, 30, 0.76);
+    background-color: rgb(255, 51, 0);
     color: white;
-    border-radius: 45%;
+    border-radius: 7px;
 }
 
 #btn3 {
     background-color: rgba(11, 69, 80, 0.952);
     color: white;
-    border-radius: 45%;   
+    border-radius: 7px;   
 }
 
 #btn4 {
-    background-color: red;
+    background-color: rgba(204, 191, 13, 0.76);
     color: white;
-    border-radius: 45%;
+    border-radius: 7px;
 }
 
 #btn5 {
-    background-color: rgba(12, 233, 30, 0.76);
+    background-color: rgb(255, 51, 0);
     color: white;
-    border-radius: 45%;
+    border-radius: 7px;
 }
 #btn6 {
     background-color: rgba(11, 69, 80, 0.952);
     color: white;
-    border-radius: 45%;
+    border-radius: 7px;
 }

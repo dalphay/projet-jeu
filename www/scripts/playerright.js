@@ -8,7 +8,7 @@ class PlayerRight extends Person {
         super(nom, titre, poids, puissance);
         this.position = 100;
         this.sprite = document.querySelector('#joueur2');
-        this.sprite.style.right = '0px';
+        this.sprite.style.right = '213px';
 
     }
     avancer() {
