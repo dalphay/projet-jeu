@@ -19,7 +19,7 @@ let btnAvancerD = document.querySelector("#btn4");
 let btnFrapperD = document.querySelector("#btn5");
 let btnReculerD = document.querySelector("#btn6");
 
-// je créer un evenement dont la fonction "click" permet de faire avancer mon joueur,
+// je crée un evenement dont la fonction "click" permet de faire avancer mon joueur,
 //dans le quel je fais appel à "fonction" reculer que j'ai déclaré dans les classes players
 
 div.addEventListener('click', function(){
@@ -47,7 +47,7 @@ btnAvancerD.addEventListener("click", function () {
     }
 });
 
-// je créer un evenement dont la fonction "click" permet de faire reculer mon joueur,
+// je crée un evenement dont la fonction "click" permet de faire reculer mon joueur,
 //dans le quel je fais appel à "fonction" reculer que j'ai déclaré dans les classes players
 
 btnReculerG.addEventListener("click", function () {
@@ -63,7 +63,7 @@ btnReculerD.addEventListener("click", function () {
     playerRight.reculer();
 });
 
-// je créer un evenement dont la fonction "click" permet à chaque joueur,
+// je crée un evenement dont la fonction "click" permet à chaque joueur,
 // de frapper avec une décrementation du mur par la puissance de chacun,
 //dans le quel je fais appel à "fonction" frapper que j'ai déclaré dans la classe mère "person"
 

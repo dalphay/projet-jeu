@@ -1,10 +1,11 @@
-body {
+#zone {
     background-image: url("img/4e682f4c1cf9bc0726b103e8f87fa6ee.gif");
     background-size: 1290px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
     overflow-y: hidden;
+    border-radius: 1500px;
 }
 
 
@@ -15,7 +16,7 @@ body {
     background-repeat: no-repeat;
     z-index: 50;
     height: 267px;
-    width: 200px;
+    width: 1325px;
     position: absolute;
     top: 130px;
     left: 530px;
@@ -112,7 +113,7 @@ input[type=text] {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    width: 1038px;
+    width: 1312px;
 }
 
 .btn-groupg {
