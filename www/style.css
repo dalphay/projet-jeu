@@ -1,4 +1,4 @@
-#zone {
+#img {
     background-image: url("img/4e682f4c1cf9bc0726b103e8f87fa6ee.gif");
     background-size: 1290px;
     background-attachment: fixed;
@@ -8,6 +8,12 @@
     border-radius: 1500px;
 }
 
+img {
+    width: 1322px;
+    border-radius: 200px;
+    position: fixed;
+    z-index: 51;
+}
 
 #mur {
     background-image: url("img/Abandoned_Mine_Wall_sprite_002.png");
@@ -16,8 +22,8 @@
     background-repeat: no-repeat;
     z-index: 50;
     height: 267px;
-    width: 1325px;
-    position: absolute;
+    width: 1025px;
+    position: fixed;
     top: 130px;
     left: 530px;
 }

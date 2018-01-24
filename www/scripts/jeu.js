@@ -6,12 +6,12 @@ let playerRight = new PlayerRight('joueur02', 'championDeurope', 90, 15, 100);
 let mur = new Mur(100);
 
 //je capture les elements dans le html avec le queryselector...//
-let img = document.querySelector("#img");
+let img = document.querySelector("#zone");
 let blocMur = document.querySelector("#mur");
 
 let div = document.querySelector("div");
-let joueur01 = document.querySelector("#img #joueur1");
-let joueur02 = document.querySelector("#img #joueur2");
+let joueur01 = document.querySelector("#zone #joueur1");
+let joueur02 = document.querySelector("#zone #joueur2");
 let btnAvancerG = document.querySelector("#btn1");
 let btnFrapperG = document.querySelector("#btn2");
 let btnReculerG = document.querySelector("#btn3");
@@ -60,7 +60,12 @@ btnReculerG.addEventListener("click", function () {
 });
 
 btnReculerD.addEventListener("click", function () {
+    if (joueur02.style.right >= "100px"){
+        joueur02.style.right = "100px";
+    }else {
     playerRight.reculer();
+    
+    }
 });
 
 // je crée un evenement dont la fonction "click" permet à chaque joueur,

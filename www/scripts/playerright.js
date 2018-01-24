@@ -6,7 +6,7 @@
 class PlayerRight extends Person {
     constructor(nom, titre, poids, puissance) {
         super(nom, titre, poids, puissance);
-        this.position = 100;
+        // this.position = 100;
         this.sprite = document.querySelector('#joueur2');
         this.sprite.style.right = '213px';
 
