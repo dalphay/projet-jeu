@@ -28,6 +28,26 @@ img {
     left: 530px;
 }
 
+#sprite {
+    background-image: url("img/collossus.png");
+    background-repeat: no-repeat;
+    z-index: 52;
+    position: absolute;
+    top: 92px;
+    left: 280px;
+    height: 512px;
+    width: 223px;
+    animation: frapper1 2s 5 steps(8);
+}
+@keyframes frapper1 {
+    from {
+        background-position-x: 0;
+    } 
+    to {
+        background-position-x: -2048px;
+    }
+}
+
 input[type=text] {
     border-radius: 8px;
     border-color: red;
