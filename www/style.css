@@ -29,24 +29,24 @@ img {
 }
 
 #sprite {
-    background-image: url("img/collossus.png");
+    background-image: url("img/MurE.png");
     background-repeat: no-repeat;
-    z-index: 52;
     position: absolute;
+    z-index: 52;
     top: 92px;
-    left: 280px;
+    left: 256px;
     height: 512px;
-    width: 223px;
-    animation: frapper1 2s 5 steps(8);
-}
-@keyframes frapper1 {
+    width: 295px;
+    animation: frapperMur 1s 7 steps(8);
+ }
+ @keyframes frapperMur {
     from {
         background-position-x: 0;
-    } 
-    to {
-        background-position-x: -2048px;
     }
-}
+    to {
+        background-position-x: -2500px;
+    }
+ }
 
 input[type=text] {
     border-radius: 8px;

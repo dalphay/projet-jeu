@@ -9,8 +9,6 @@ class PlayerLeft extends Person {
     }
     avancer() {
         this.sprite.style.left = '0px';
-        
-        // this.sprite.style.left = parseInt(this.sprite.style.left) + 30 + 'px';
         this.sprite.style.animationName = 'avancer';
     }
     reculer() {

@@ -48,11 +48,6 @@ btnReculerG.addEventListener("click", function () {
 btnReculerD.addEventListener("click", function () {
     playerRight.reculer();
     
-    // if (joueur02.style.right >= "100px"){
-    //     joueur02.style.right = "100px";
-    // }else {
-    
-    // }
 });
 
 // je crée un evenement dont la fonction "click" permet à chaque joueur,
