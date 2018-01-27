@@ -37,7 +37,7 @@ img {
     left: 256px;
     height: 512px;
     width: 295px;
-    animation: frapperMur 1s 7 steps(8);
+    animation: frapperMur 1s infinite steps(8), deplacersprite 2s 3;
  }
  @keyframes frapperMur {
     from {
@@ -47,6 +47,26 @@ img {
         background-position-x: -2500px;
     }
  }
+
+ @keyframes deplacersprite {
+    25% {
+        left: 85%;
+        top: 10%;
+    }
+    50% {
+        left: 10%;
+        top: 85%;
+    }
+    75% {
+        left: 85%;
+        top: 85%;
+    }
+    100% {
+        top: 10%;
+        left: 10%;
+
+    }
+}
 
 input[type=text] {
     border-radius: 8px;
