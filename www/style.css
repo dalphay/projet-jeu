@@ -84,7 +84,23 @@ input[type=text] {
     left: 280px;
     height: 300px;
     width: 167px;
+    animation-duration: 3s, 3s;
+    animation-iteration-count: 1, 1;
+    animation-timing-function: linear, linear;
+    animation-fill-mode: forwards, forwards;
 }
+
+@keyframes avancer {
+    to {
+      left: 380px;
+    }
+  }
+  @keyframes reculer {
+    to {
+      left: 0px;
+    }
+  }
+
 
   #joueur02 {
     background-image: url("img/playerRightlarge.png");
@@ -113,6 +129,21 @@ input[type=text] {
     right: 213px;
     height: 260px;
     width: 228px;
+    animation-duration: 3s, 3s;
+    animation-iteration-count: 1, 1;
+    animation-timing-function: linear, linear;
+    animation-fill-mode: forwards, forwards;
+}
+
+@keyframes avancerright {
+    to {
+      right: 310px;
+    }
+  }
+  @keyframes reculerright {
+    to {
+      right: 0px;
+    }
 }
 .table-inverse {
     color: #fff;

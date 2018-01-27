@@ -27,45 +27,32 @@ div.addEventListener('click', function(){
 })
 
 btnAvancerG.addEventListener("click", function () {
-
-    if (joueur01.style.left >= "380px"){
-        joueur01.style.left = "380px";
-    }else {
     playerLeft.avancer();
-
-    }
+    
 
 });
 
 btnAvancerD.addEventListener("click", function () {
-
-    if (joueur02.style.right >= "310px"){
-        joueur02.style.right = "310px";
-    }else {
-
-        playerRight.avancer();
-    }
+    playerRight.avancer();
+    
 });
 
 // je crée un evenement dont la fonction "click" permet de faire reculer mon joueur,
 //dans le quel je fais appel à "fonction" reculer que j'ai déclaré dans les classes players
 
 btnReculerG.addEventListener("click", function () {
-    if (joueur01.style.left >= "100px"){
-        joueur01.style.left = "100px";
-    }else {
-        playerLeft.reculer();
-
-    }
+    playerLeft.reculer();
+   
 });
 
 btnReculerD.addEventListener("click", function () {
-    if (joueur02.style.right >= "100px"){
-        joueur02.style.right = "100px";
-    }else {
     playerRight.reculer();
     
-    }
+    // if (joueur02.style.right >= "100px"){
+    //     joueur02.style.right = "100px";
+    // }else {
+    
+    // }
 });
 
 // je crée un evenement dont la fonction "click" permet à chaque joueur,
