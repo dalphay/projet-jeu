@@ -12,8 +12,8 @@ class Person {
 
     frapper(mur) {
         mur.destroy(this.puissance);
-    }
 
+    }
 };
 
 

@@ -37,7 +37,7 @@ img {
     left: 256px;
     height: 512px;
     width: 295px;
-    animation: frapperMur 1s infinite steps(8), deplacersprite 2s 3;
+    animation: frapperMur 1s 4 steps(8), deplacersprite 6s 3;
  }
  @keyframes frapperMur {
     from {
@@ -50,22 +50,14 @@ img {
 
  @keyframes deplacersprite {
     25% {
-        left: 85%;
-        top: 10%;
+        left: 40%;
+        top: 30%;
     }
     50% {
-        left: 10%;
-        top: 85%;
+        left: 30%;
+        top: 40%;
     }
-    75% {
-        left: 85%;
-        top: 85%;
-    }
-    100% {
-        top: 10%;
-        left: 10%;
 
-    }
 }
 
 input[type=text] {
@@ -96,6 +88,7 @@ input[type=text] {
     }
 }
 
+
 #joueur1 {
     background-image: url("img/PlayerLeftstatique.png");
     background-repeat: no-repeat;
@@ -107,7 +100,7 @@ input[type=text] {
     animation-duration: 3s, 3s;
     animation-iteration-count: 1, 1;
     animation-timing-function: linear, linear;
-    animation-fill-mode: forwards, forwards;
+    animation-fill-mode: forwards, forwards;  
 }
 
 @keyframes avancer {
@@ -173,6 +166,10 @@ input[type=text] {
     margin-bottom: 1rem;
 }
 
+#tr {
+
+}
+
 #block {
     width: 1280px;
     height: 724px;
@@ -233,4 +230,26 @@ input[type=text] {
     background-color: rgba(11, 69, 80, 0.952);
     color: white;
     border-radius: 7px;
+}
+
+
+#j1 {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #b10303;
+    border-color: 4;
+    margin-top: 58px;
+    font-weight: bold;
+    
+}
+
+#j2 {   
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #00f836;
+    border-color: 4;
+    margin-top: 58px;
+    font-weight: bold;
 }

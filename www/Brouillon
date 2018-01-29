@@ -1,0 +1,32 @@
+
+<!---<table id="tabl">
+            <tr>
+                <th>playerleft</th>
+                <th>Score</th>
+                <th>playerright</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>#</td>
+                <td>50</td>
+                <td>#</td>
+                <td>60</td>
+            </tr>
+        </table>--->
+
+
+/* #tabl {
+
+    border-collapse: collapse;
+    border-radius: 4;
+    background-color: red;
+    width: 50%;
+    top: 234px;
+    left: 1234px;
+}
+
+td, th {
+
+    border: 1px solid rgb(5, 80, 243);
+
+} */
