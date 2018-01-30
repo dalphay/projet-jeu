@@ -30,3 +30,36 @@ td, th {
     border: 1px solid rgb(5, 80, 243);
 
 } */
+
+// on récupère l'élément
+let elmt = document.getElementById("j1");
+// on modifie son style
+elmt.style.opacity = "#ff0";
+elmt.style.o = "#0f0";
+elmt.style.fontSize = "1.2em";
+elmt.style.textAlign = "center";
+
+let health = 100;
+let compteur = 1;
+
+ switch (compteur) {
+            case 1:
+                progress.setAttribute("value", "75");
+                compteur++;
+                break;
+            case 2:
+                progress.setAttribute("value", "45");
+                compteur++;
+                break;
+            case 3:
+                progress.setAttribute("value", "20");
+                compteur++;
+                
+                break;
+            case 4:
+                progress.setAttribute("value", "0");
+                compteur++;                
+            default:
+                break;
+
+        }

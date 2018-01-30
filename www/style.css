@@ -166,9 +166,6 @@ input[type=text] {
     margin-bottom: 1rem;
 }
 
-#tr {
-
-}
 
 #block {
     width: 1280px;
@@ -187,7 +184,7 @@ input[type=text] {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    width: 1312px;
+    width: 1252px;
 }
 
 .btn-groupg {
@@ -237,19 +234,28 @@ input[type=text] {
     display: block;
     text-align: center;
     font-size: 40px;
-    color: #b10303;
+    color: #fffefe;
     border-color: 4;
-    margin-top: 58px;
+    margin-top: -56px;
     font-weight: bold;
-    
+    margin-left: 64px;   
 }
 
 #j2 {   
     display: block;
     text-align: center;
     font-size: 40px;
-    color: #00f836;
+    color: #f83a00;
     border-color: 4;
-    margin-top: 58px;
+    margin-top: -56px;
     font-weight: bold;
+    margin-left: -62px;  
+
+}
+
+progress {
+    background-color: rgb(238, 255, 0);
+    font-size: 30px;
+    border-radius: 29px;
+    margin-left: 132px;
 }

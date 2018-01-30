@@ -11,8 +11,7 @@ class Person {
     }
 
     frapper(mur) {
-        mur.destroy(this.puissance);
-
+        mur.destroy(this.puissance);  
     }
 };
 

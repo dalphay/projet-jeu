@@ -1,6 +1,6 @@
 "use strict";
 
-// la classe "mur" n'hérite d'aucune classe 
+// la classe "mur" n'hérite d'aucune classe.
 class Mur {
     constructor(vie) {
         this.vie = vie;
