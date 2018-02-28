@@ -11,11 +11,14 @@ class Mur {
         if (this.vie <= 75) {
             this.element.style.backgroundImage = "url('img/Mur2.png')";
         }
-        if (this.vie <= 45) {
+        if (this.vie <= 55) {
             this.element.style.backgroundImage = "url('img/Mur3.png')";
         }
-        if (this.vie <= 20) {
+        if (this.vie <= 35) {
             this.element.style.backgroundImage = "url('img/Mur4.png')";
+        }
+        if (this.vie <=20){
+            this.element.style.backgroundImage = "";
         }
         if (this.vie <= 0) {
             this.element.style.display = "none";

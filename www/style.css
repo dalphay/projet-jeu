@@ -253,8 +253,9 @@ input[type=text] {
 
 }
 
+
 progress {
-    background-color: rgb(238, 255, 0);
+    background-color: rgb(254, 255, 255);
     font-size: 30px;
     border-radius: 29px;
     margin-left: 132px;

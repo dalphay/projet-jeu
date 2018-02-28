@@ -1,7 +1,7 @@
 "use strict";
 
 // j'extencie les trois classes (PlayerLeft, playerLeft, mur)//
-let playerLeft = new PlayerLeft('joueur01', 'championDuMonde', 95, 20, 0);
+let playerLeft = new PlayerLeft('joueur01', 'championDuMonde', 95, 15, 0);
 let playerRight = new PlayerRight('joueur02', 'championDeurope', 90, 15, 100);
 let mur = new Mur(100);
 
@@ -81,8 +81,6 @@ btnReculerD.addEventListener("click", function () {
 // de frapper avec une décrementation du mur par la puissance de chacun,
 //dans le quel je fais appel à "fonction" frapper que j'ai déclaré dans la classe mère "person"
 
-let compteur = 1;
-
 
 btnFrapperG.addEventListener('click', function () {
 
@@ -92,28 +90,7 @@ btnFrapperG.addEventListener('click', function () {
         joueur01.style.left = '380px';
 
         joueur01.setAttribute('id', 'joueur01');
-
-        switch (compteur) {
-            case 1:
-                progress.setAttribute("value", "200");
-                compteur++;
-                break;
-            case 2:
-                progress.setAttribute("value", "150");
-                compteur++;
-                break;
-            case 3:
-                progress.setAttribute("value", "100");
-                compteur++;
-
-                break;
-            case 4:
-                progress.setAttribute("value", "0");
-                compteur++;
-            default:
-                break;
-
-        }
+        progress.value = progress.value -50;
 
         joueur01.addEventListener('animationend', function () {
             joueur01.setAttribute('id', 'joueur1');
@@ -131,41 +108,9 @@ btnFrapperD.addEventListener("click", function () {
         joueur02.style.animationName = '';
         joueur02.setAttribute('id', 'joueur02');
 
-        switch (compteur) {
-            case 1:
-                progress.setAttribute("value", "300");
-                compteur++;
-                break;
-            case 2:
-                progress.setAttribute("value", "250");
-                compteur++;
-                break;
-            case 3:
-                progress.setAttribute("value", "200");
-                compteur++;
-
-                break;
-            case 4:
-                progress.setAttribute("value", "150");
-                compteur++;
-                break;
-            case 5:
-                progress.setAttribute("value", "100");
-                compteur++;
-                break;
-            case 6:
-                progress.setAttribute("value", "50");
-                compteur++;
-                break;
-            case 7:
-                progress.setAttribute("value", "0");
-                compteur++;
-            default:
-                break;
-
-        }
+        progress.value = progress.value - 50;
         joueur02.addEventListener('animationend', function () {
-            joueur02.setAttribute('id', 'joueur2');
+        joueur02.setAttribute('id', 'joueur2');
 
         });
     }
